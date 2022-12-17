@@ -1,7 +1,5 @@
-# 開発環境
+# Rustの開発環境
 
-* Codespacesには最初からnvmやrvm、SDKMANが入っています。
-* Goのバージョンを指定することはできません。最新版が入ります。
-* Rustはそもそも自分で入れる必要があります。
+Microsoftが提供しているテンプレートがあるので、それを元に開発環境を整えます。
 
-* [Go](https://github.com/ykwyuta/blank/tree/go)
+[microsoft/vscode\-remote\-try\-rust: Rust sample project for trying out Dev Containers](https://github.com/microsoft/vscode-remote-try-rust)
