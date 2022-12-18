@@ -2,4 +2,6 @@
 
 Microsoftが提供しているテンプレートがあるので、それを元に開発環境を整えます。
 
-[microsoft/vscode\-remote\-try\-go: Go sample project for trying out Dev Containers](https://github.com/microsoft/vscode-remote-try-go)
+[Goのdevcontainer](https://github.com/devcontainers/images/tree/main/src/go)
+
+指定可能な言語バージョンは↑の中に記載されています。
