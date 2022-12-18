@@ -2,4 +2,6 @@
 
 Microsoftが提供しているテンプレートがあるので、それを元に開発環境を整えます。
 
-[microsoft/vscode\-remote\-try\-rust: Rust sample project for trying out Dev Containers](https://github.com/microsoft/vscode-remote-try-rust)
+[Rustのdevcontainer](https://github.com/devcontainers/images/tree/main/src/rust)
+
+このイメージ「mcr.microsoft.com/devcontainers/rust」ではRustのバージョンを指定することはできません。Rustにはeditionという画期的な仕組みがあり、後方互換性のない変更はeditionを変更しない限り有効になりませんが、プロジェクトの方針でRustのバージョンを固定しなければならない場合は[Rustのdevcontainer](https://github.com/devcontainers/images/tree/main/src/rust)の.devcontainer/Dockerfileで指定する[DOCKER OFFICIAL IMAGE](https://hub.docker.com/_/rust)のrustのバージョンを変更する必要があります。
